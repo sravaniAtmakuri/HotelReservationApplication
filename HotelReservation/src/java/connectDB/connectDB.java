@@ -11,7 +11,7 @@ public class connectDB {
 			try
 			{
 				Class.forName("com.mysql.jdbc.Driver");
-				con=DriverManager.getConnection("jdbc:mysql://sql1.njit.edu/sa934","sa934","Sravani@91");
+				con=DriverManager.getConnection("<url>","<username>","<password>");
                                 System.out.println("connected----------");
                                 
 			}
